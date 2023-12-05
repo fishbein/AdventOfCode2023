@@ -15,23 +15,6 @@ struct NumberStringMapping {
 let numberStringMappings: [NumberStringMapping] = [NumberStringMapping(string: "one", digit: 1), NumberStringMapping(string: "two", digit: 2), NumberStringMapping(string: "three", digit: 3), NumberStringMapping(string: "four", digit: 4), NumberStringMapping(string: "five", digit: 5), NumberStringMapping(string: "six", digit: 6), NumberStringMapping(string: "seven", digit: 7), NumberStringMapping(string: "eight", digit: 8), NumberStringMapping(string: "nine", digit: 9)]
 
 class DayOneSolution {
-    func loadFile(fileName: String) -> String
-    {
-        if let path = Bundle.main.path(forResource: fileName, ofType: "txt")
-        {
-            let fm = FileManager()
-            let exists = fm.fileExists(atPath: path)
-            if(exists){
-                let content = fm.contents(atPath: path)
-                let contentAsString = String(data: content!, encoding: String.Encoding.utf8)
-                
-                return contentAsString ?? ""
-            }
-        }
-        
-        return ""
-    }
-    
     func findDigits(string: String) -> [Int] {
         var digits: [Int] = [];
         for (index, character) in string.enumerated() {
@@ -55,7 +38,7 @@ class DayOneSolution {
 
     
     init() {
-        let input: String = loadFile(fileName: "input")
+        let input: String = loadFile(fileName: "dayOneInput")
         var inputs: [String] = []
         input.enumerateLines { word, _ in
             inputs.append(word)
