@@ -16,6 +16,14 @@
 		4A988F762B1ECEA900951CB6 /* loadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A988F752B1ECEA900951CB6 /* loadFile.swift */; };
 		4A988F792B1FE3B500951CB6 /* dayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A988F782B1FE3B500951CB6 /* dayFour.swift */; };
 		4A988F7B2B1FE3E300951CB6 /* dayFourInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F7A2B1FE3E300951CB6 /* dayFourInput.txt */; };
+		4A988F7E2B27674200951CB6 /* seedToSoil.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F7D2B27674200951CB6 /* seedToSoil.txt */; };
+		4A988F802B27676B00951CB6 /* soilToFertilizer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F7F2B27676B00951CB6 /* soilToFertilizer.txt */; };
+		4A988F822B27677D00951CB6 /* fertilizerToWater.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F812B27677D00951CB6 /* fertilizerToWater.txt */; };
+		4A988F842B27679100951CB6 /* waterToLight.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F832B27679100951CB6 /* waterToLight.txt */; };
+		4A988F862B2767A000951CB6 /* lightToTemperature.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F852B2767A000951CB6 /* lightToTemperature.txt */; };
+		4A988F882B2767B200951CB6 /* temperatureToHumidity.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F872B2767B200951CB6 /* temperatureToHumidity.txt */; };
+		4A988F8A2B2767C100951CB6 /* humidityToLocation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A988F892B2767C100951CB6 /* humidityToLocation.txt */; };
+		4A988F8C2B2767D000951CB6 /* DayFiveSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A988F8B2B2767D000951CB6 /* DayFiveSolution.swift */; };
 		4AAA88D52B17F388005375D3 /* AdventOfCode2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA88D42B17F388005375D3 /* AdventOfCode2023App.swift */; };
 		4AAA88D72B17F388005375D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA88D62B17F388005375D3 /* ContentView.swift */; };
 		4AAA88D92B17F389005375D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAA88D82B17F389005375D3 /* Assets.xcassets */; };
@@ -54,6 +62,14 @@
 		4A988F752B1ECEA900951CB6 /* loadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadFile.swift; sourceTree = "<group>"; };
 		4A988F782B1FE3B500951CB6 /* dayFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayFour.swift; sourceTree = "<group>"; };
 		4A988F7A2B1FE3E300951CB6 /* dayFourInput.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dayFourInput.txt; sourceTree = "<group>"; };
+		4A988F7D2B27674200951CB6 /* seedToSoil.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = seedToSoil.txt; sourceTree = "<group>"; };
+		4A988F7F2B27676B00951CB6 /* soilToFertilizer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = soilToFertilizer.txt; sourceTree = "<group>"; };
+		4A988F812B27677D00951CB6 /* fertilizerToWater.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = fertilizerToWater.txt; sourceTree = "<group>"; };
+		4A988F832B27679100951CB6 /* waterToLight.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = waterToLight.txt; sourceTree = "<group>"; };
+		4A988F852B2767A000951CB6 /* lightToTemperature.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lightToTemperature.txt; sourceTree = "<group>"; };
+		4A988F872B2767B200951CB6 /* temperatureToHumidity.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = temperatureToHumidity.txt; sourceTree = "<group>"; };
+		4A988F892B2767C100951CB6 /* humidityToLocation.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = humidityToLocation.txt; sourceTree = "<group>"; };
+		4A988F8B2B2767D000951CB6 /* DayFiveSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayFiveSolution.swift; sourceTree = "<group>"; };
 		4AAA88D12B17F388005375D3 /* AdventOfCode2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAA88D42B17F388005375D3 /* AdventOfCode2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventOfCode2023App.swift; sourceTree = "<group>"; };
 		4AAA88D62B17F388005375D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +145,21 @@
 			path = "Day Four";
 			sourceTree = "<group>";
 		};
+		4A988F7C2B27672800951CB6 /* Day Five */ = {
+			isa = PBXGroup;
+			children = (
+				4A988F7D2B27674200951CB6 /* seedToSoil.txt */,
+				4A988F7F2B27676B00951CB6 /* soilToFertilizer.txt */,
+				4A988F812B27677D00951CB6 /* fertilizerToWater.txt */,
+				4A988F832B27679100951CB6 /* waterToLight.txt */,
+				4A988F852B2767A000951CB6 /* lightToTemperature.txt */,
+				4A988F872B2767B200951CB6 /* temperatureToHumidity.txt */,
+				4A988F892B2767C100951CB6 /* humidityToLocation.txt */,
+				4A988F8B2B2767D000951CB6 /* DayFiveSolution.swift */,
+			);
+			path = "Day Five";
+			sourceTree = "<group>";
+		};
 		4AAA88C82B17F388005375D3 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +183,7 @@
 		4AAA88D32B17F388005375D3 /* AdventOfCode2023 */ = {
 			isa = PBXGroup;
 			children = (
+				4A988F7C2B27672800951CB6 /* Day Five */,
 				4A988F772B1FE3AA00951CB6 /* Day Four */,
 				4A988F702B1ECD6300951CB6 /* Day Three */,
 				4A988F6B2B1D1A4600951CB6 /* Day Two */,
@@ -298,7 +330,14 @@
 			files = (
 				4AAA88DC2B17F389005375D3 /* Preview Assets.xcassets in Resources */,
 				4AAA88D92B17F389005375D3 /* Assets.xcassets in Resources */,
+				4A988F862B2767A000951CB6 /* lightToTemperature.txt in Resources */,
+				4A988F842B27679100951CB6 /* waterToLight.txt in Resources */,
+				4A988F822B27677D00951CB6 /* fertilizerToWater.txt in Resources */,
+				4A988F8A2B2767C100951CB6 /* humidityToLocation.txt in Resources */,
 				4A988F742B1ECD8400951CB6 /* dayThreeInput.txt in Resources */,
+				4A988F7E2B27674200951CB6 /* seedToSoil.txt in Resources */,
+				4A988F882B2767B200951CB6 /* temperatureToHumidity.txt in Resources */,
+				4A988F802B27676B00951CB6 /* soilToFertilizer.txt in Resources */,
 				4A988F682B1A956000951CB6 /* dayOneInput.txt in Resources */,
 				4A988F7B2B1FE3E300951CB6 /* dayFourInput.txt in Resources */,
 				4A988F6F2B1D1A6100951CB6 /* dayTwoInput.txt in Resources */,
@@ -335,6 +374,7 @@
 				4A988F6D2B1D1A5600951CB6 /* dayTwo.swift in Sources */,
 				4A988F792B1FE3B500951CB6 /* dayFour.swift in Sources */,
 				4AAA88D52B17F388005375D3 /* AdventOfCode2023App.swift in Sources */,
+				4A988F8C2B2767D000951CB6 /* DayFiveSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

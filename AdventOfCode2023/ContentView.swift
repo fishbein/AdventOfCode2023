@@ -12,7 +12,7 @@ struct ContentView: View {
         Advent(dayNumber: 1, name: "A Test", data: [1, 2, 3].map({ AdventData(input: String($0), output: "Num: \($0)") }))
     ]
     
-    let dayTwoSolution = DayThreeSolution()
+    let solution = DayFiveSolution()
     
     var body: some View {
         NavigationStack {
